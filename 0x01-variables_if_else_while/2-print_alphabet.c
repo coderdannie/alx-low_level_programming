@@ -11,10 +11,9 @@ int main(void)
 {
 	char alph;
 
-	for (alph = 'a'; low <= 'z'; alph++)
+	for (alph = 'a'; alph <= 'z'; alph++)
 
-		putchar(alph);
-		putchar('\n');
+		putchar("%c\n", alph);
 
 	return (0);
 }
