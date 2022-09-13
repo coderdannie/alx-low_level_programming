@@ -8,7 +8,7 @@ void print_alphabet_x10(void)
 {
 	int count;
 
-	char second_letters
+	char second_letters;
 
 	for (count = 0; count <= 9; count++)
 	{
