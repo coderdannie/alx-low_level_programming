@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - Prints _putchar
  *
- * Return: On sucess 1.
- * On error, -1 is returned, and erno is set appropriately.
+ * Return: Always 0 (Success)
  */
-int_putchar(char c)
+int main(void)
 {
-	char *ch = "_putchar";
-
-	while (*ch)
-	{
-		_putchar(*ch);
-		sh++;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 {
