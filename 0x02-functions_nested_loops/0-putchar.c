@@ -13,7 +13,7 @@ int_putchar(char c)
 
 	while (*ch)
 	{
-		_putchar(*sh);
+		_putchar(*ch);
 		sh++;
 	}
 	_putchar('\n');
