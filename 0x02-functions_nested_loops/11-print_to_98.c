@@ -2,13 +2,13 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n: starting point
- * Return: returns notthing
+ * Return: returns nothing
  */
 void print_to_98(int n)
 {
-	if (n < 98)
+	if (n <= 98)
 	{
-		for (n = n; n <= 98; n++)
+		for (n = n; n <= 97; n++)
 			printf("%d, ", n);
 	}
 	else
@@ -16,5 +16,5 @@ void print_to_98(int n)
 		for (n = n; n > 98; n--)
 			printf("%d, ", n);
 	}
-	return (0);
+	printf("98/n");
 }
