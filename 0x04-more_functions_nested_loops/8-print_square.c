@@ -3,7 +3,7 @@
 /**
  * print_square - a function that prints a square, followed by a new line
  * @size: size of both width and length
- * Retun: # to print the square
+ * Retun: a square made of '#'
  */
 void print_square(int size)
 {
